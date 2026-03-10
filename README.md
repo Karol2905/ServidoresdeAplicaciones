@@ -130,7 +130,7 @@ Passed: 2, Failed 2
 
 ---
 
-> 📸 **Archivos estáticos**
+> **Archivos estáticos**
 ![Servidor corriendo](images/index.png)
 ![Servidor corriendo](images/logo.png)
 
