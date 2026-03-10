@@ -11,4 +11,3 @@ import java.lang.annotation.Target;
 public @interface GetMapping {
     String value();
 }
-

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>MicroSpringBoot</title>
+    <style>
+        body { font-family: Arial, sans-serif; max-width: 700px; margin: 40px auto; background: #f4f4f4; }
+        h1   { color: #2c3e50; }
+        ul   { line-height: 2.2; }
+        a    { color: #2980b9; text-decoration: none; }
+        a:hover { text-decoration: underline; }
+    </style>
+</head>
+<body>
+    <h1>MicroSpringBoot By Karol</h1>
+    <p>Servidor web mínimo construido con Java Reflection e IoC.</p>
+
+    <h2>Endpoints disponibles</h2>
+    <ul>
+        <li><a href="/">/</a> — Saludo raíz</li>
+        <li><a href="/hello">/hello</a> — Hello World</li>
+        <li><a href="/pi">/pi</a> — Valor de PI</li>
+        <li><a href="/greeting">/greeting</a> — Saludo (World por defecto)</li>
+        <li><a href="/greeting?name=Carlos">/greeting?name=Carlos</a> — Saludo personalizado</li>
+    </ul>
+
+    <h2>Archivos estáticos</h2>
+    <ul>
+        <li><a href="/index.html">/index.html</a> — Esta página HTML</li>
+        <li><a href="/logo.png">/logo.png</a> — Imagen PNG</li>
+    </ul>
+
+    <p><small>Sin dependencias externas — solo Java 21.</small></p>
+</body>
+</html>

@@ -14,4 +14,3 @@ public class Foo {
     }
     public static void m8() { }
 }
-
